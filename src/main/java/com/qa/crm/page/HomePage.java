@@ -21,6 +21,7 @@ public HomePage(WebDriver driver) {
  
 //By locators
 By logIn = By.xpath("//a[contains(@class,'btn-rect btn-icon')]");
+By signUp = By.xpath("//a[contains(@class, 'btn-border' )]");
 
 /***********page actions***********/
 

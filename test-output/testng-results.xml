@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-02T20:22:54Z" name="Default suite" finished-at="2021-05-02T20:23:08Z" duration-ms="13716">
+  <suite started-at="2021-05-03T02:55:00Z" name="Default suite" finished-at="2021-05-03T02:55:10Z" duration-ms="10237">
     <groups>
     </groups>
-    <test started-at="2021-05-02T20:22:54Z" name="Default test" finished-at="2021-05-02T20:23:08Z" duration-ms="13716">
-      <class name="com.qa.crm.tests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.crm.tests.HomePageTest@7c51f34b]" started-at="2021-05-02T20:22:54Z" name="setup" finished-at="2021-05-02T20:23:02Z" duration-ms="8010" status="PASS">
+    <test started-at="2021-05-03T02:55:00Z" name="Default test" finished-at="2021-05-03T02:55:10Z" duration-ms="10237">
+      <class name="com.qa.crm.tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.crm.tests.LoginPageTest@2049a9c1]" started-at="2021-05-03T02:55:00Z" name="setUp" finished-at="2021-05-03T02:55:10Z" duration-ms="10178" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.qa.crm.tests.HomePageTest@7c51f34b]" started-at="2021-05-02T20:23:02Z" name="verifyHomePageTitleTest" finished-at="2021-05-02T20:23:03Z" duration-ms="23" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="getLoginPageTitleTest()[pri:1, instance:com.qa.crm.tests.LoginPageTest@2049a9c1]" started-at="2021-05-03T02:55:10Z" name="getLoginPageTitleTest" finished-at="2021-05-03T02:55:10Z" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method signature="verifyLoginLinkDisplayedTest()[pri:2, instance:com.qa.crm.tests.HomePageTest@7c51f34b]" started-at="2021-05-02T20:23:03Z" name="verifyLoginLinkDisplayedTest" finished-at="2021-05-02T20:23:05Z" duration-ms="2965" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginLinkDisplayedTest -->
-        <test-method signature="clickLoginBtnTest()[pri:3, instance:com.qa.crm.tests.HomePageTest@7c51f34b]" started-at="2021-05-02T20:23:05Z" name="clickLoginBtnTest" finished-at="2021-05-02T20:23:07Z" depends-on-methods="com.qa.crm.tests.HomePageTest.verifyLoginLinkDisplayedTest" duration-ms="1611" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickLoginBtnTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.crm.tests.HomePageTest@7c51f34b]" started-at="2021-05-02T20:23:07Z" name="tearDown" finished-at="2021-05-02T20:23:08Z" duration-ms="1058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.crm.tests.HomePageTest -->
+        </test-method> <!-- getLoginPageTitleTest -->
+      </class> <!-- com.qa.crm.tests.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
