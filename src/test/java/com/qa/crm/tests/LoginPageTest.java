@@ -38,10 +38,15 @@ public class LoginPageTest {
 		Assert.assertEquals(title, AppConstants.LOGIN_PAGE_TITLE);
 		
 	}
-	
-	@AfterTest
-	public void tearDown() {
-		driver.close();
+	@Test(priority = 2)
+	public void getLogin() {
+		loginPage.getLogin(prop.getProperty("username"), prop.getProperty("password"));
+		
 	}
+	
+//	@AfterTest
+//	public void tearDown() {
+//		driver.close();
+//	}
 
 }

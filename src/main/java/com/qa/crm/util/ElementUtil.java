@@ -69,7 +69,17 @@ public class ElementUtil {
 		dogetElement(locator).click();
 		
 	}
+	public void doSentKeys(By locator, String value) {
+		try {
+			WebElement ele = dogetElement(locator);
+			ele.clear();
+			ele.sendKeys(value);
+		}catch(Exception e) {
+			System.out.println("Some exception occured while entering the value in the fiels.....");
+		}
+		
 	
+	}
 	
 
 }
