@@ -27,11 +27,12 @@ public class LoginPage extends BasePage {
 		elementUtil.waitForTitlePresent(AppConstants.LOGIN_PAGE_TITLE);
 		return elementUtil.dogetPageTitle();
 	}
-	public void getLogin(Credentials userCred) {
+	public HomePage getLogin(Credentials userCred) {
 		elementUtil.waitForElementPresent(email);
 		elementUtil.doSentKeys(email, userCred.getAppUsername());
 		elementUtil.doSentKeys(password, userCred.getAppPassword());
 		elementUtil.doClick(login);
+		return new HomePage(driver);
 	}
 
 }

@@ -27,7 +27,7 @@ By signUp = By.xpath("//a[contains(@class, 'btn-border' )]");
 
 //Get title of the page
 public String getHomePageTitle() {
-	elementUtil.waitForTitlePresent(AppConstants.HOME_PAGE_TITLE);
+	elementUtil.waitForTitlePresent(AppConstants.CRMFREE_PAGE_TITLE);
 	String title = elementUtil.dogetPageTitle();
 	return title;
 }

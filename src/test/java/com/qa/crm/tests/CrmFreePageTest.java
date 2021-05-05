@@ -35,7 +35,7 @@ public class CrmFreePageTest {
 	@Test(priority =1)
 	public void verifyHomePageTitleTest() {
 		String title = crmFreePage.getHomePageTitle();
-		Assert.assertEquals(title, AppConstants.HOME_PAGE_TITLE);
+		Assert.assertEquals(title, AppConstants.CRMFREE_PAGE_TITLE);
 		
 		
 	}
