@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.qa.crm.base.BasePage;
 import com.qa.crm.util.AppConstants;
+import com.qa.crm.util.Credentials;
 import com.qa.crm.util.ElementUtil;
 
 public class LoginPage extends BasePage {
@@ -26,10 +27,10 @@ public class LoginPage extends BasePage {
 		elementUtil.waitForTitlePresent(AppConstants.LOGIN_PAGE_TITLE);
 		return elementUtil.dogetPageTitle();
 	}
-	public void getLogin(String user, String pwd) {
+	public void getLogin(Credentials userCred) {
 		elementUtil.waitForElementPresent(email);
-		elementUtil.doSentKeys(email, user);
-		elementUtil.doSentKeys(password, pwd);
+		elementUtil.doSentKeys(email, userCred.getAppUsername());
+		elementUtil.doSentKeys(password, userCred.getAppPassword());
 		elementUtil.doClick(login);
 	}
 

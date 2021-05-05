@@ -4,21 +4,22 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.qa.crm.base.BasePage;
-import com.qa.crm.page.HomePage;
+import com.qa.crm.page.CrmFreePage;
 import com.qa.crm.page.LoginPage;
 import com.qa.crm.util.AppConstants;
+import com.qa.crm.util.Credentials;
 
 public class LoginPageTest {
 	WebDriver driver;
 	Properties prop;
 	BasePage basePage;
-	HomePage homePage;
+	CrmFreePage homePage;
 	LoginPage loginPage;
+	Credentials userCred;
 	
 	@BeforeTest
 	public void setUp() {
@@ -28,8 +29,9 @@ public class LoginPageTest {
 		driver = basePage.init_driver(browsername);
 		driver.get(prop.getProperty("url"));
 		
-		homePage = new HomePage(driver);
+		homePage = new CrmFreePage(driver);
 		loginPage = homePage.clickLoginBtn();
+		userCred = new Credentials(prop.getProperty("username"), prop.getProperty("password"));
 		
 	}
 	@Test(priority = 1)
@@ -40,7 +42,7 @@ public class LoginPageTest {
 	}
 	@Test(priority = 2)
 	public void getLogin() {
-		loginPage.getLogin(prop.getProperty("username"), prop.getProperty("password"));
+		loginPage.getLogin(userCred);
 		
 	}
 	

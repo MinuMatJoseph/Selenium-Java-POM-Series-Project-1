@@ -8,13 +8,13 @@ import com.qa.crm.util.AppConstants;
 import com.qa.crm.util.ElementUtil;
 
 
-public class HomePage extends BasePage{
+public class CrmFreePage extends BasePage{
 
 
 WebDriver driver;
 ElementUtil elementUtil;
 
-public HomePage(WebDriver driver) {
+public CrmFreePage(WebDriver driver) {
 	this.driver = driver;
 	elementUtil = new ElementUtil(driver);
 }
