@@ -48,8 +48,8 @@ public class HomePageTest {
 		
 	}
 	
-//	@AfterTest
-//	public void tearDown() {
-//		driver.close();
-//	}
+	@AfterTest
+	public void tearDown() {
+		driver.close();
+	}
 }
