@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="D:\Selenium Project -1\SeleniumJavaPomSeriesProject1"/>
+			<item value="D:\Selenium Trial April 2021\POMSeriesApriMay2021"/>
+			<item value="D:\Selenium Project -1"/>
+			<item value="C:\Users\cjose\Downloads\selenium2021Jan\SeleniumPOMSeriesProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

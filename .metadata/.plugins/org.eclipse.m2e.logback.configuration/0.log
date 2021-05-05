@@ -1,0 +1,85 @@
+2021-05-04 08:18:36,971 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-04 08:19:33,340 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: April2021POMSeries:April2021POMSeries:0.0.1-SNAPSHOT @ D:\Selenium Trial April 2021\POMSeriesApriMay2021\pom.xml.
+2021-05-04 08:19:37,047 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /April2021POMSeries/src/main/java
+2021-05-04 08:19:37,063 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /April2021POMSeries/src/test/java
+2021-05-04 08:19:37,553 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 14 sec
+2021-05-04 08:19:41,054 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:19:41,054 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\main\resources
+2021-05-04 08:19:41,058 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:19:41,059 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\test\resources
+2021-05-04 08:20:51,025 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: April2021POMSeries:April2021POMSeries:0.0.1-SNAPSHOT @ D:\Selenium Trial April 2021\POMSeriesApriMay2021\pom.xml.
+2021-05-04 08:20:51,637 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /April2021POMSeries/src/main/java
+2021-05-04 08:20:51,638 [Worker-1: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /April2021POMSeries/src/test/java
+2021-05-04 08:20:51,842 [Worker-1: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2021-05-04 08:20:52,768 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:20:52,769 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\main\resources
+2021-05-04 08:20:52,774 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:20:52,775 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\test\resources
+2021-05-04 08:21:38,830 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:21:38,831 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\main\resources
+2021-05-04 08:21:38,832 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:21:38,832 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\test\resources
+2021-05-04 08:23:43,042 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:23:43,042 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\main\resources
+2021-05-04 08:23:43,044 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:23:43,044 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\test\resources
+2021-05-04 08:25:15,370 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SeleniumPOMSeriesProject:SeleniumPOMSeriesProject:0.0.1-SNAPSHOT @ C:\Users\cjose\Downloads\selenium2021Jan\SeleniumPOMSeriesProject\pom.xml.
+2021-05-04 08:25:15,706 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumPOMSeriesProject/src/main/java
+2021-05-04 08:25:15,706 [Worker-2: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SeleniumPOMSeriesProject/src/test/java
+2021-05-04 08:25:15,850 [Worker-2: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2021-05-04 08:25:16,837 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:25:16,837 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\cjose\Downloads\selenium2021Jan\SeleniumPOMSeriesProject\src\main\resources
+2021-05-04 08:25:16,849 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:25:16,849 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\cjose\Downloads\selenium2021Jan\SeleniumPOMSeriesProject\src\test\resources
+2021-05-04 08:25:44,292 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:25:44,292 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\cjose\Downloads\selenium2021Jan\SeleniumPOMSeriesProject\src\main\resources
+2021-05-04 08:25:44,294 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:25:44,294 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\cjose\Downloads\selenium2021Jan\SeleniumPOMSeriesProject\src\test\resources
+2021-05-04 08:26:51,613 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: April2021POMSeries:April2021POMSeries:0.0.1-SNAPSHOT @ D:\Selenium Trial April 2021\POMSeriesApriMay2021\pom.xml.
+2021-05-04 08:26:51,993 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /April2021POMSeries/src/main/java
+2021-05-04 08:26:51,994 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /April2021POMSeries/src/test/java
+2021-05-04 08:26:52,140 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2021-05-04 08:26:52,913 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:26:52,914 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\main\resources
+2021-05-04 08:26:52,915 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:26:52,915 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\test\resources
+2021-05-04 08:27:27,800 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:27:27,800 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\main\resources
+2021-05-04 08:27:27,806 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:27:27,806 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\test\resources
+2021-05-04 08:27:28,038 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:27:28,039 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\cjose\Downloads\selenium2021Jan\SeleniumPOMSeriesProject\src\main\resources
+2021-05-04 08:27:28,054 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 08:27:28,055 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\cjose\Downloads\selenium2021Jan\SeleniumPOMSeriesProject\src\test\resources
+2021-05-04 08:44:30,060 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-04 11:08:43,871 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-04 11:10:34,685 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-04 11:14:54,881 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 11:14:54,881 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\main\resources
+2021-05-04 11:14:54,891 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 11:14:54,892 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\test\resources
+2021-05-04 11:16:12,218 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-04 11:18:06,411 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-04 11:22:19,723 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-04 11:23:31,904 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-04 11:24:15,732 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @56850ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-05-04 11:24:16,223 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.35.v20201120; built: 2020-11-27T20:36:51.615Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9-18
+2021-05-04 11:24:16,275 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2021-05-04 11:24:16,275 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2021-05-04 11:24:16,277 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2021-05-04 11:24:16,314 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@33a45b58{/help,null,AVAILABLE}
+2021-05-04 11:24:16,345 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4aa1a008{HTTP/1.1, (http/1.1)}{127.0.0.1:59019}
+2021-05-04 11:24:16,364 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @57483ms
+2021-05-04 11:24:16,365 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 726000ms
+2021-05-04 11:29:54,682 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@4aa1a008{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2021-05-04 11:29:54,683 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2021-05-04 11:29:54,719 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@33a45b58{/help,null,STOPPED}
+2021-05-04 11:30:10,286 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-04 11:32:36,983 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: April2021POMSeries:April2021POMSeries:0.0.1-SNAPSHOT @ D:\Selenium Trial April 2021\POMSeriesApriMay2021\pom.xml.
+2021-05-04 11:32:37,879 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /April2021POMSeries/src/main/java
+2021-05-04 11:32:37,880 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /April2021POMSeries/src/test/java
+2021-05-04 11:32:38,297 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2021-05-04 11:33:40,076 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 11:33:40,077 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\main\resources
+2021-05-04 11:33:40,079 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-04 11:33:40,079 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Selenium Trial April 2021\POMSeriesApriMay2021\src\test\resources
