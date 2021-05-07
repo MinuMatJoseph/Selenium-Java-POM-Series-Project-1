@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.qa.crm.base.BasePage;
+import com.qa.crm.page.ContactPage;
 import com.qa.crm.page.CrmFreePage;
 import com.qa.crm.page.HomePage;
 import com.qa.crm.page.LoginPage;
@@ -45,6 +46,15 @@ public class HomePageTest {
 	public void getHomePageTitleTest() {
 		String title = homePage.getHomePageTitle();
 		Assert.assertEquals(title, AppConstants.HOME_PAGE_TITLE);
+		
+	}
+	@Test(priority = 2)
+	public void homeMenuItemUserTest() {
+		ContactPage contactPage =homePage.homeMenuItemUser();
+	}
+	@Test(priority = 3)
+	public void logOutClickTest() {
+		homePage.logOutClick();
 		
 	}
 	

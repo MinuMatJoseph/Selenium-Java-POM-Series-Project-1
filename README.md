@@ -1,4 +1,4 @@
-Selenium with Java is used to design this project.
+Selenium webdriver with Java is used to design this project.
 
 Website is https://freecrm.com/
 

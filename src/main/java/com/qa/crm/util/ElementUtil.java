@@ -3,6 +3,7 @@ package com.qa.crm.util;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -78,8 +79,22 @@ public class ElementUtil {
 			System.out.println("Some exception occured while entering the value in the fiels.....");
 		}
 		
-	
+	}
+	public String doGetText(By locator) {
+		try {
+			return dogetElement(locator).getText();
+		}catch(Exception e) {
+			System.out.println("Some exception occured while getting the text...");
+		}
+		return null;
+		
 	}
 	
+	public void doMouseMove(By locator) {
+		WebElement element = dogetElement(locator);
+		Actions action= new Actions(driver);
+		action.moveToElement(element).build().perform();
+		
+	}
 
 }
